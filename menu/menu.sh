@@ -307,7 +307,7 @@ case $opt in
 7) clear ; running ;;
 8) clear ; nano /etc/issue.net ;;
 9) clear ; menu-backup ;;
-10) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
+10) clear ; sudo wget -O /usr/local/bin/zi.sh https://raw.githubusercontent.com/huutvpn/udp-zivpn/main/zi.sh && sudo chmod +x /usr/local/bin/zi.sh && sudo zi.sh ;;
 11) clear ; add-host ;; 
 12) exit ;;
 esac
